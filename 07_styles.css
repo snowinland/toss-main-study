@@ -1,13 +1,13 @@
 .container {
     width: 414px;
-    height: 600px;
+    height: 680px;
     margin: 0 auto;
     background-color: #f5f5f5;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .main {
     padding: 20px;  
-    height: 600px;
+    height: fit-content;
 }
 .header {
     display: flex;
@@ -41,7 +41,7 @@
     justify-content: center;
 }
 .box2 {
-    height: 300px;
+    height: 200px;
     background-color:transparent;
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,6 @@
 .box3 {
     background-color: transparent;
     height: fit-content;
-    /* height: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,7 +73,7 @@
 .button-group {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .gray-button {
     background-color: #ccc;
@@ -86,12 +85,10 @@
     cursor: pointer;
 }
 .privacy-policy {
-    margin-top: 0px;
     text-align: center;
     font-size: 12px;
 }
 .footer {
-    height: px;
     display: flex;
     justify-content: space-between;
     align-items: center;

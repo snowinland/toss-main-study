@@ -28,7 +28,7 @@
 .icons {
     display: flex;
     justify-content: space-between;
-    width: 50px;
+    width: 60px;
 }
 .box {
     /* height: 100px; */

@@ -1,0 +1,94 @@
+@charset 'UTF-8';
+/* CSS Document */
+
+/* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css"); */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+* {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 100%;
+}
+
+/* text */
+.title {
+    margin: 0;
+}
+
+/*본문 스타일 rem*/
+.size12px{
+    font-family: "Pretendard Variable";
+    font-size: 12px;
+    line-height: 170%;
+    word-break: keep-all;
+    text-align: left;
+    color:#eeeeee;
+    letter-spacing: -0.0001em;
+    word-spacing:0;
+    font-weight: 400;
+    margin: 6px 0;
+}
+.size18px{
+    font-family: "Pretendard Variable";
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.0001em;
+    word-spacing:0;
+    font-weight: 570;
+    margin: 10px 0;
+    word-break: keep-all;
+    text-align: left;
+    color:#ffffff;
+}
+h2 {
+    font-family: "Pretendard Variable";
+    display: block;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+p.size12px_2 {
+    font-family: "Pretendard Variable";
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: -0.0001em;
+    word-spacing:0;
+    font-weight: 400;
+    word-break: keep-all;
+    text-align: left;
+    display: block;
+    color: #111111;
+}
+h3.size18px_2 {
+    font-family: "Pretendard Variable";
+    font-size: 1.17em;
+    letter-spacing: -0.0001em;
+    word-spacing:0;
+    font-weight: 700;
+    margin: 10px 0;
+    display: block;
+}
+
+/* animation */
+#pretendard>span {
+    animation: variable-loop 4s infinite both;
+    animation-delay: var(--delay);
+    text-align: center;
+    --delay: calc((var(--variable-index) + 1) * 0.15s);
+}
+@keyframes variable-loop {
+    0% {
+        font-weight: 45;
+        letter-spacing: -0.03em;
+    }
+
+    50% {
+        font-weight: 760;
+        letter-spacing: -0.05em;
+    }
+
+    100% {
+        font-weight: 45;
+        letter-spacing: -0.03em;
+    }
+}
+span .here{
+    background-color: rgba(#111111,#111111,#111111, 0.1);
+}
